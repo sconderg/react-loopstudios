@@ -31,8 +31,8 @@ const Container = styled.div`
         position:absolute;
         top:0;
         left:0;
-        width:80%;
-        height:99%;
+        width:100%;
+        height:99.2%;
         display:flex;
         justify-content:flex-end;
         flex-direction:column;
