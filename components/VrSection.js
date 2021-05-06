@@ -1,12 +1,10 @@
 import styled from "styled-components";
-import Image from 'next/image';
-
 function VrSection() {
     return (
         <Container>
            <div className="container">
-                <img className="desktop"  src='/images/desktop/image-interactive.jpg'  />
-                <img className="mobile"  src='/images/mobile/image-interactive.jpg'/>
+                <img className="desktop"  src='/images/desktop/image-interactive.jpg' alt="interactive" />
+                <img className="mobile"  src='/images/mobile/image-interactive.jpg' alt="interactive"/>
                 <div className="info">
                     <h2>The leader in interactive vr</h2>
                     <p>
