@@ -12,43 +12,43 @@ function OurCreations() {
                 <ProjectsContainer>
                     <Project 
                         text='Deep earth'
-                        desktopImg="/images/desktop/image-deep-earth.jpg" alt="deep earth"
-                        mobileImg="/images/mobile/image-deep-earth.jpg" alt="deep earth"
+                        desktopImg="/images/desktop/image-deep-earth.jpg"
+                        mobileImg="/images/mobile/image-deep-earth.jpg"
                      />
                     <Project 
                         text='Night arcade'
-                        desktopImg="/images/desktop/image-night-arcade.jpg" alt="deep earth"
-                        mobileImg="/images/mobile/image-night-arcade.jpg" alt="deep earth"
+                        desktopImg="/images/desktop/image-night-arcade.jpg"
+                        mobileImg="/images/mobile/image-night-arcade.jpg"
                      />
                     <Project 
                         text='Soccer team VR'
-                        desktopImg="/images/desktop/image-soccer-team.jpg" alt="deep earth"
-                        mobileImg="/images/mobile/image-soccer-team.jpg" alt="deep earth"
+                        desktopImg="/images/desktop/image-soccer-team.jpg"
+                        mobileImg="/images/mobile/image-soccer-team.jpg"
                      />
                     <Project 
                         text='The grid'
-                        desktopImg="/images/desktop/image-grid.jpg" alt="deep earth"
-                        mobileImg="/images/mobile/image-grid.jpg" alt="deep earth"
+                        desktopImg="/images/desktop/image-grid.jpg"
+                        mobileImg="/images/mobile/image-grid.jpg"
                      />
                     <Project 
                         text='From up above VR'
-                        desktopImg="/images/desktop/image-from-above.jpg" alt="deep earth"
-                        mobileImg="/images/mobile/image-from-above.jpg" alt="deep earth"
+                        desktopImg="/images/desktop/image-from-above.jpg"
+                        mobileImg="/images/mobile/image-from-above.jpg"
                      />
                     <Project 
                         text='Pocket borealis'
-                        desktopImg="/images/desktop/image-pocket-borealis.jpg" alt="deep earth"
-                        mobileImg="/images/mobile/image-night-arcade.jpg" alt="deep earth"
+                        desktopImg="/images/desktop/image-pocket-borealis.jpg"
+                        mobileImg="/images/mobile/image-night-arcade.jpg"
                      />
                     <Project 
                         text='The curiosity'
-                        desktopImg="/images/desktop/image-curiosity.jpg" alt="deep earth"
-                        mobileImg="/images/mobile/image-curiosity.jpg" alt="deep earth"
+                        desktopImg="/images/desktop/image-curiosity.jpg"
+                        mobileImg="/images/mobile/image-curiosity.jpg"
                      />
                     <Project 
                         text='Make it fisheye'
-                        desktopImg="/images/desktop/image-fisheye.jpg" alt="deep earth"
-                        mobileImg="/images/mobile/image-fisheye.jpg" alt="deep earth"
+                        desktopImg="/images/desktop/image-fisheye.jpg"
+                        mobileImg="/images/mobile/image-fisheye.jpg"
                      />
                 </ProjectsContainer>
                 <Button className="mobile">See All</Button>

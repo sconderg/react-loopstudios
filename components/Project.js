@@ -3,8 +3,8 @@ import styled from "styled-components";
 function Project({text, desktopImg, mobileImg}) {
     return (
         <Container>
-            <img className="mobile" src={mobileImg} />
-            <img className="desktop" src={desktopImg} />
+            <img className="mobile" src={mobileImg} alt={text} />
+            <img className="desktop" src={desktopImg} alt={text} />
             <div className="overlay">
                 <h3>{text}</h3>
             </div>

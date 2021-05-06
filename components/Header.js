@@ -62,6 +62,9 @@ const Container = styled.div`
             padding:30px;
             color:#FFF;
             width:50%;
+            @media(max-width:900px) {
+                width:60%;
+            }
             h1 {
                 font-size:4em;
                 margin:0;
@@ -102,8 +105,10 @@ const Navbar = styled.div`
                 cursor:pointer;
                 width:fit-content;
                 padding-bottom:10px;
+                border-bottom:1px solid transparent;
+                transition:all ease-in-out 0.3s;
                 :hover {
-                    border-bottom:1px solid #FFF;
+                    border-color:#FFF;
                 }
                 :not(:last-of-type)  {
                     margin-right:25px;

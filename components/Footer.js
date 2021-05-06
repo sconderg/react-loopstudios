@@ -50,8 +50,10 @@ const MyFooter = styled.footer`
                 padding-bottom:10px;
                 width:fit-content;
                 margin-right:15px;
+                border-bottom:1px solid transparent;
+                transition:all ease-in-out 0.3s;
                 :hover {
-                    border-bottom:1px solid #FFF;
+                    border-color:#FFF;
                 }
             }
         }
