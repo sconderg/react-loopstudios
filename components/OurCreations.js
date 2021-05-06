@@ -22,8 +22,8 @@ function OurCreations() {
                      />
                     <Project 
                         text='Soccer team VR'
-                        desktopImg="/images/desktop/image-Soccer-team.jpg" alt="deep earth"
-                        mobileImg="/images/mobile/image-Soccer-team.jpg" alt="deep earth"
+                        desktopImg="/images/desktop/image-soccer-team.jpg" alt="deep earth"
+                        mobileImg="/images/mobile/image-soccer-team.jpg" alt="deep earth"
                      />
                     <Project 
                         text='The grid'
