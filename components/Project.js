@@ -31,7 +31,7 @@ const Container = styled.div`
         position:absolute;
         top:0;
         left:0;
-        width:100%;
+        width:80%;
         height:99%;
         display:flex;
         justify-content:flex-end;
@@ -40,7 +40,8 @@ const Container = styled.div`
         transition:all ease-in-out 0.3s;
         h3 {
             font-size:2em;
-            width:50%;
+            width:100%;
+            text-align:center;
             text-transform:uppercase;
             color:white;
         }
