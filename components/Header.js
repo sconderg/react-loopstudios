@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
+import Nav from './Nav';
 
 function Header() {
     const [navOpened, setNavOpened] = useState(false);
@@ -12,13 +13,7 @@ function Header() {
                     <button className="navbar-toggler" onClick={toggleNav}>
                         <img src="/images/icon-hamburger.svg" alt="idk" />
                     </button>
-                    <ul>
-                        <li>About</li>
-                        <li>Careers</li>
-                        <li>Events</li>
-                        <li>Products</li>
-                        <li>Support</li>
-                    </ul>
+                    <Nav />
                     {navOpened && (
                         <MobileNav>
                             <div className="head">
@@ -27,13 +22,7 @@ function Header() {
                                     <img src="/images/icon-close.svg" alt="idk" />
                                 </button>
                             </div>
-                            <ul>
-                                <li>About</li>
-                                <li>Careers</li>
-                                <li>Events</li>
-                                <li>Products</li>
-                                <li>Support</li>
-                            </ul>
+                            <Nav mobile={true} />
                         </MobileNav>
                     )}
                 </div>
@@ -95,40 +84,16 @@ const Navbar = styled.div`
         .navbar-toggler {
             display:none;
         }
-        ul {
-            list-style:none;
-            padding:0;
-            display:flex;
-            color:white;
-            li {
-                font-size:16px;
-                cursor:pointer;
-                width:fit-content;
-                padding-bottom:10px;
-                border-bottom:1px solid transparent;
-                transition:all ease-in-out 0.3s;
-                :hover {
-                    border-color:#FFF;
-                }
-                :not(:last-of-type)  {
-                    margin-right:25px;
-                }
-            }
-        }
     }
     @media (max-width:767px) {
         padding:20px 10px;
         .container {
-            
             .navbar-toggler {
                 display:block;
                 background:none;
                 border:none;
                 outline:none;
                 cursor:pointer;
-            }
-            > ul {
-            display:none;
             }
         }
     }
@@ -154,15 +119,7 @@ const MobileNav = styled.div`
             height:32px;
         }
     }
-    ul {
-        flex-direction:column;
-        margin-top:5em;
-        li {
-            margin-right:0;
-            margin-bottom:30px;
-            font-size:3em !important;
-            font-weight:300!important;
-            font-family: "Josefin Sans", sans-serif;
-        }
+    @media (min-width:767px) {
+        display:none;
     }
 `;
